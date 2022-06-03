@@ -7,7 +7,7 @@ MainWindow::MainWindow()
     trayIcon->show();
     settingWidget= new Setting();
 
-
+    this->setWindowIcon(QIcon(":/Images/Dua_icon.png"));
     QFile file("./../Zekr/DB/azkar.txt");
     if(!file.open(QIODevice::ReadOnly))
     {

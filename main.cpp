@@ -18,6 +18,9 @@ int main(int argc, char *argv[])
     QCoreApplication::setApplicationName("El Zekr");
 
     QApplication a(argc, argv);
+
+
+
     RunGuard guard( "EL_Zekrv1.0" );
     if ( !guard.tryToRun() )
     {

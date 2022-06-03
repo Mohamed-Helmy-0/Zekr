@@ -15,12 +15,15 @@ SOURCES += \
     runguard.cpp \
     setting.cpp
 
+RC_ICONS = Images/Dua_icon.ico
+
 HEADERS += \
     about.h \
     main.h \
     mainwindow.h \
     runguard.h \
     setting.h
+
 
 FORMS += \
     setting.ui

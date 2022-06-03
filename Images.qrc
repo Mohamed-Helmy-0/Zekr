@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/Pro_Icon.png</file>
+        <file>Images/exit_icon.png</file>
+        <file>Images/About_icon.png</file>
+        <file>Images/Dua_icon.png</file>
+        <file>Images/setting_icon.png</file>
+    </qresource>
+</RCC>

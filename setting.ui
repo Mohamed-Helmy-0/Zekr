@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Setting</class>
+ <widget class="QDialog" name="Setting">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>365</width>
+    <height>126</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>332</width>
+    <height>126</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>3320</width>
+    <height>1260</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QCheckBox" name="StartWithWindowsCheckBox">
+       <property name="text">
+        <string>Start El Zekr with Windows</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="1">
+        <widget class="QSpinBox" name="hourSpinBox">
+         <property name="suffix">
+          <string/>
+         </property>
+         <property name="prefix">
+          <string/>
+         </property>
+         <property name="maximum">
+          <number>12</number>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="NotificatioRatelabel">
+         <property name="text">
+          <string>Notification rate every</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QLabel" name="hourLabel">
+         <property name="text">
+          <string>hour</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QDialogButtonBox" name="ObuttonBox">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="standardButtons">
+        <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
